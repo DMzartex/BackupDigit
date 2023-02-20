@@ -1,0 +1,64 @@
+.formSearchBar{
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+}
+
+.boxSearchBar{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.searchBar{
+    width: 80%;
+    height: 2.2em;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline-style: none;
+}
+
+.btnSearch{
+   position: absolute;
+    right: 95px;
+    top: 5px;
+    color: #93CBA3;
+}
+
+.boxSelectFacture{
+    margin-bottom: 0.8em;
+    width: 100%;
+}
+
+.selectSearch{
+    width: 60%;
+}
+
+.textInfoSearchBar{
+    color: white;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 23px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .formSearchBar{
+        margin-left: 1em;
+
+    }
+    .textInfoSearchBar{
+        margin-bottom: 10px;
+    }
+    .boxSelectFacture{
+        margin-bottom: 0.8em;
+    }
+    .btnSearch{
+        position: absolute;
+        right: 80px;
+    }
+}
+
+
